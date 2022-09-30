@@ -153,7 +153,14 @@
             
         </div>
 
-
+        <div class="footer-social">
+            <a href="" class="social-icons"><i class="fa fa-facebook"></i></a>
+            <a href="" class="social-icons"><i class="fa fa-instagram"></i></a>
+            <a href="" class="social-icons"><i class="fa fa-youtube"></i></a>
+            <a href="" class="social-icons"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
        
 
 
