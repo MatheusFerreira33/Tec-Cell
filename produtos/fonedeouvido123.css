@@ -1,0 +1,195 @@
+#DivLateral{
+    position:relative;
+    border-width:2px;
+    width:600px;
+    height: 450px;
+    background-color: white;
+   float: right;
+   margin-right: 140px;
+   margin-left:-10px;
+   padding-left: 35PX;
+   text-align: left;
+}
+#DivA{
+    position: relative;
+    border-width:2px;
+    width: 500px;
+    height: 500px;
+    left:20px;
+    background-color: blue;
+    float: left;
+}
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+    margin-top: 150px;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+     zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+hr.new1 {
+    border-top: 1px solid black;
+  }
+
+
+
+
+
+  
+
+
+
+  .text-box {
+    margin-left: 54;
+	 margin-top: 42vh;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    background-color: red;
+    color: WHITE;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 25PX;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: red;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
+form{
+    margin-top:200px;
+}
+
+
+
+
+
+
+input[type=text]{ 
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px; 
+    width:350px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-left: 750px;
+    border-radius: 30px;
+}
+
+input[name=email]{ 
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px; 
+    width:350px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+input[name=bairro]{ 
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px; 
+    width:350px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 25px;
+    margin-left: 30px;
+    border-radius: 30px;
+
+}
+
+
+textarea{border: 1px solid #000000;
+    background:#cccccc;
+    width:150px;
+    height:100px;
+}
+
+
+
+input[type=submit]{        
+    background:#6bcaf3;       
+     color:BLACK;
+    width: 350px;
+    height:50px;
+    font-size: 30px;
+    margin-left: 960px;
+    border-radius: 30px;
+
+    
+    }
+
+
+
+
+
+#direita{
+    margin-left: 940px;
+    margin-top: -50px;
+}

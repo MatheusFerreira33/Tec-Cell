@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.holder {
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    }
+    .imagem {
+    width: 300px;
+    margin: 10px;
+    position: relative;
+    text-align: center;
+    padding-top: 5px;
+    }
+    .imagem::after {
+    content: attr(data-title); /* estilo que coloco a legenda no lugar */
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+    top: 210px;
+    
+    }
